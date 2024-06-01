@@ -1,0 +1,74 @@
+#name-from{
+    height: 100vh;
+}
+#tejaswi{
+    top: 400px;
+    width: 2px solid black ;
+    height: 10px;
+
+}
+
+/* Default styles */
+body {
+    background-color: white;
+    color: black;
+}
+
+#name-from {
+    height: 100vh;
+}
+
+#tejaswi {
+    top: 400px;
+    width: 2px solid black;
+    height: 10px;
+}
+
+/* Dark mode styles */
+
+body.dark-mode ion-icon[name="moon"] {
+    top: 0;
+    left: 0;
+}
+
+body.dark-mode {
+    background-color: #212121;
+    color: white;
+}
+
+body.dark-mode #name-from {
+    background-color: #303030;
+}
+
+body.dark-mode #tejaswi {
+    border-color: white;
+}
+
+body.dark-mode #login {
+    background-color: #303030;
+}
+
+
+/*#login{
+    left: 453.71px; 
+    top: 429px; 
+    position: relative; 
+    border-radius: 25px;
+    height: 30px; 
+    width: 90px; 
+    background-color: black; 
+    color: white;
+}
+#login:hover{
+    left: 453.71px; 
+    top: 429px; 
+    position: absolute; 
+    border-radius: 25px;
+    height: 30px; 
+    width: 90px; 
+    background-color: black; 
+    color: white;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+} */
